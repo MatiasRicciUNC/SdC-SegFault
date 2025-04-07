@@ -17,13 +17,31 @@ unsigned long fibonacciConCarga(int n) {
     return b;
 }
 
+float fibonacciFloats(int n) {
+    if (n <= 1) {
+        return (float)n;
+    }
+    float a = 0.0f, b = 1.0f, c;
+    for (int i = 2; i <= n; i++) {
+        c = a + b;
+        a = b;
+        b = c;
+
+        // Agregar una operación de carga adicional (multiplicación)
+        for (volatile int j = 0; j < 10000; j++) {
+            c = c * 2.0f;  // Operación adicional para consumir tiempo
+        }
+    }
+    return b;
+}
+
 // Función para medir el tiempo de cálculo
 void medirTiempo(int n) {
     unsigned long inicio = millis();
     unsigned long resultado = fibonacciConCarga(n);  // Calcular Fibonacci con carga adicional
     unsigned long tiempoFinal = millis() - inicio;  // Tiempo que tarda en calcularse
 
-    Serial.print("Resultado Fibonacci de ");
+    Serial.print("Resultado con int Fibonacci de ");
     Serial.print(n);
     Serial.print(": ");
     Serial.println(resultado);
@@ -31,6 +49,20 @@ void medirTiempo(int n) {
     Serial.print("Tiempo total: ");
     Serial.print(tiempoFinal);
     Serial.println(" ms");
+    
+    unsigned long inicio = millis();
+    unsigned long resultado = fibonacciFloats(n);  // Calcular Fibonacci con carga adicional
+    unsigned long tiempoFinal = millis() - inicio;  // Tiempo que tarda en calcularse
+
+    Serial.print("Resultado con floats Fibonacci de ");
+    Serial.print(n);
+    Serial.print(": ");
+    Serial.println(resultado);
+    
+    Serial.print("Tiempo total: ");
+    Serial.print(tiempoFinal);
+    Serial.println(" ms");
+    
 }
 
 void setup() {
