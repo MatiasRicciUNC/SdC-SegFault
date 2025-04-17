@@ -16,11 +16,11 @@ El sistema sigue la siguiente lógica:
 ## 📁 Estructura del Proyecto
 
 📦 Codigos 
-┣ 📜 suma_uno_v2.asm # Rutina en NASM que suma 1 a un número entero 
-┣ 📜 connection-py-c-ass.c # Función en C que conecta Python con ASM 
-┣ 📜 converter.so # Biblioteca compartida resultante 
-┣ 📜 main.py # Script principal en Python 
-┗ 📜 README.md # Este archivo
+┣ 📜 suma_uno_v2.asm # Rutina en NASM que suma 1 a un número entero \
+┣ 📜 connection-py-c-ass.c # Función en C que conecta Python con ASM \
+┣ 📜 converter.so # Biblioteca compartida resultante \
+┣ 📜 main.py # Script principal en Python \
+┗ 📜 README.md # Este archivo 
 
 
 ## 🛠️ Compilación
