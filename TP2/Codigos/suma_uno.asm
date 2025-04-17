@@ -1,8 +1,8 @@
 section .text
 default rel    
-global suma_uno
+global procesar_gini_via_stack
 
-suma_uno:
+procesar_gini_via_stack:
     mov eax, edi
     add eax, 1
     ret
