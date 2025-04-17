@@ -2,6 +2,8 @@
 
 Este proyecto demuestra la integración de tres lenguajes de programación: **Python**, **C** y **Ensambler NASM**, a través de una arquitectura en capas que permite procesar datos utilizando la pila (`stack`) y devolver el resultado a un programa de alto nivel.
 
+[Informe TP2](https://docs.google.com/document/d/1T6bWxSlaxXZWo9Ir8Qc_GQqLNt4xN_7Wg1sJO-1f9pg/edit?tab=t.0#heading=h.d24tyjilvzfe)
+
 ## 🧠 Descripción
 
 El sistema sigue la siguiente lógica:
