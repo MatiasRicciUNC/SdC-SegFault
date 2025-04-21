@@ -17,7 +17,7 @@ El sistema sigue la siguiente lógica:
 
 ## 📁 Estructura del Proyecto
 
-📦 Codigos 
+📦 Codigos \
 ┣ 📜 suma_uno_v2.asm # Rutina en NASM que suma 1 a un número entero \
 ┣ 📜 connection-py-c-ass.c # Función en C que conecta Python con ASM \
 ┣ 📜 converter.so # Biblioteca compartida resultante \
