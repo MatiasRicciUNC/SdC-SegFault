@@ -1,0 +1,1 @@
+savedcmd_/home/santi/Documentos/SdC-SegFault/SdC-SegFault-main/TP5/kernel_module/modules.order := {   echo /home/santi/Documentos/SdC-SegFault/SdC-SegFault-main/TP5/kernel_module/sensor_drv.o; :; } > /home/santi/Documentos/SdC-SegFault/SdC-SegFault-main/TP5/kernel_module/modules.order

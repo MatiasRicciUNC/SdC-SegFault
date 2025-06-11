@@ -1,0 +1,1 @@
+savedcmd_/home/santi/Documentos/SdC-SegFault/SdC-SegFault-main/TP5/kernel_module/sensor_drv.mod := printf '%s\n'   sensor_drv.o | awk '!x[$$0]++ { print("/home/santi/Documentos/SdC-SegFault/SdC-SegFault-main/TP5/kernel_module/"$$0) }' > /home/santi/Documentos/SdC-SegFault/SdC-SegFault-main/TP5/kernel_module/sensor_drv.mod

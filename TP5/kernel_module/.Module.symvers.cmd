@@ -1,0 +1,1 @@
+savedcmd_/home/santi/Documentos/SdC-SegFault/SdC-SegFault-main/TP5/kernel_module/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/santi/Documentos/SdC-SegFault/SdC-SegFault-main/TP5/kernel_module/Module.symvers -T /home/santi/Documentos/SdC-SegFault/SdC-SegFault-main/TP5/kernel_module/modules.order -i Module.symvers -e 
